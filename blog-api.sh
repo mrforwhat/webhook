@@ -8,7 +8,7 @@ git clean -f
 echo "拉取最新代码"
 git pull origin master
 echo "开始构建"
-docker build -t blog-api .
+docker build -t blog-api:1.0 .
 echo "停止旧容器并删除旧容器"
 docker stop blog-api-container
 docker rm blog-api-container

@@ -1,7 +1,7 @@
 #!/bin/bash
 
 WORK_PATH= '/home/app/blog-api'
-cd$ $WORK_PATH
+cd $WORK_PATH
 echo "先清除老代码"
 git reset --hard origin/master
 git clean -f

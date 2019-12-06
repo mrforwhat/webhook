@@ -1,0 +1,7 @@
+# Created by .ignore support plugin (hsz.mobi)
+lib
+node_modules
+.idea
+package-lock.json
+Dockerfle
+.dockerigonre

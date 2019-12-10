@@ -12,7 +12,7 @@ npm install
 echo "编译打包"
 npm run build
 echo "开始构建"
-docker build -t --no-cache blog-front:1.0 .
+docker build --no-cache -t blog-front:1.0 .
 echo "停止旧容器并删除旧容器"
 docker stop blog-front-container
 docker rm blog-front-container
